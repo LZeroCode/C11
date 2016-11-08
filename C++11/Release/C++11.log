@@ -1,5 +1,23 @@
-﻿生成启动时间为 2015/11/25 20:55:48。
+﻿生成启动时间为 2016/4/7 11:43:22。
+     1>项目“D:\LZeroCode\C11\C++11\C++11.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\C++11.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C++11.cpp
+         C++11.cpp
+     1>d:\lzerocode\c11\c++11\..\ZeroTools\Tools\DllParser.h(66): warning C4251: “DllParser::m_map”: class“std::map<std::string,FARPROC,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“DllParser”的客户端使用
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=FARPROC
+                 ]
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LZeroCode\C11\Release\C++11.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\LZeroCode\C11\Release\C++11.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\LZeroCode\C11\Release\C++11.lib" /MACHINE:X86 /SAFESEH Release\C++11.obj
+         Release\stdafx.obj
+            正在创建库 D:\LZeroCode\C11\Release\C++11.lib 和对象 D:\LZeroCode\C11\Release\C++11.exp
+         正在生成代码
+         已完成代码的生成
+         C++11.vcxproj -> D:\LZeroCode\C11\Release\C++11.exe
+     1>已完成生成项目“D:\LZeroCode\C11\C++11\C++11.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.00
+已用时间 00:00:02.50

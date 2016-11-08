@@ -2,7 +2,6 @@
 
 #include "dll_ZeroTools.h"
 #include <chrono>
-
 class ZeroTool Timer
 {
 public:

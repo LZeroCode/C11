@@ -12,7 +12,7 @@ DllParser::~DllParser()
 
 bool DllParser::Load(const std::string& path)
 {
-	m_hModule = ::LoadLibrary(path.data());
+	m_hModule = ::LoadLibrary((LPCWSTR)path.data());
 
 	return NULL != m_hModule;
 }

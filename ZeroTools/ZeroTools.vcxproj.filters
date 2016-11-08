@@ -51,6 +51,12 @@
     <ClInclude Include="Tools\Visitor.h">
       <Filter>Tools</Filter>
     </ClInclude>
+    <ClInclude Include="Tools\ScopeGuard.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\LZeroAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

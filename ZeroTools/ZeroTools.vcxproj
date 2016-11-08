@@ -20,7 +20,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -84,7 +84,9 @@
     <ClInclude Include="Tools\DllParser.h" />
     <ClInclude Include="Tools\dll_ZeroTools.h" />
     <ClInclude Include="Tools\Lazy.h" />
+    <ClInclude Include="Tools\LZeroAPI.h" />
     <ClInclude Include="Tools\Optional.h" />
+    <ClInclude Include="Tools\ScopeGuard.h" />
     <ClInclude Include="Tools\Singleton.h" />
     <ClInclude Include="Tools\SimpleEvent.h" />
     <ClInclude Include="Tools\Timer.h" />
